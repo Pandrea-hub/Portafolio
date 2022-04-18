@@ -40,7 +40,7 @@ function Contact() {
         </div>
         <form action="https://formspree.io/f/xjvlalkj" method="post">
           <input name="Email" id="email" type="email" placeholder='Tu Email' required />
-          <textarea name="Escribe tu mensaje aquí"></textarea>
+          <textarea name="Mensaje" placeholder='Escribe un mensaje aquí'></textarea>
           <button type="submit" className='btn btn-primary'>Mandar Mensaje</button>
         </form>
       </div>
