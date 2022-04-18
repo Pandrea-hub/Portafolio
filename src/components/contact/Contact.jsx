@@ -3,21 +3,12 @@ import './contact.css'
 import {AiOutlineMail} from 'react-icons/ai'
 import {RiMessengerLine} from 'react-icons/ri'
 import {SiWhatsapp} from 'react-icons/si'
-import { useRef } from 'react';
-import emailjs from 'emailjs-com';
+
 
 
 function Contact() {
 
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm('service_r4i9g0b', 'template_orseccb', form.current, 'vtpFveKwJWfEN2ZSE')
-
-    e.target.reset();
-  };
+  
 
   return (
     <section id='contact'>
@@ -47,12 +38,10 @@ function Contact() {
             <a href='https://api.whatsapp.com/send?phone=+573192331874' target='_blank'>Mandar mensaje</a>
           </article>
         </div>
-
-        <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Tu Nombre Completo' required />
-          <input type="email" name='email' placeholder='Tu Email' required />
-          <textarea name='message' rows="7" placeholder='Tu Mensaje' required></textarea>
-          <button type='submit' className='btn btn-primary'>Mandar Mensaje</button>
+        <form action="https://formspree.io/f/xjvlalkj" method="post">
+          <input name="Email" id="email" type="email" placeholder='Tu Email' required />
+          <textarea name="Escribe tu mensaje aquí"></textarea>
+          <button type="submit" className='btn btn-primary'>Mandar Mensaje</button>
         </form>
       </div>
     </section>
