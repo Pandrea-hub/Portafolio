@@ -22,14 +22,14 @@ function Footer() {
 
 
       <div className='footer__socials'>
-        <a href='https://github.com/Pandrea-hub'><AiOutlineGithub/></a>
-        <a href='https://twitter.com/AndreaVivi12'><AiOutlineTwitter/></a>
-        <a href='https://www.linkedin.com/in/andrea-viviana-diaz-fonseca-7aa269214/'><BsLinkedin/></a>
-        <a href='https://www.instagram.com/andreavivi12_/'><GrInstagram/></a>
+        <a href='https://github.com/Pandrea-hub' target="_blank"><AiOutlineGithub/></a>
+        <a href='https://twitter.com/AndreaVivi12' target="_blank" ><AiOutlineTwitter/></a>
+        <a href='https://www.linkedin.com/in/andreavivi12/' target="_blank"><BsLinkedin/></a>
+        <a href='https://www.instagram.com/andreavivi12_/' target="_blank"><GrInstagram/></a>
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; EGATOR Tutorials & Online Tutorials</small>
+        <small>&copy; Inspirado en EGATOR Tutorials & Online Tutorials</small>
       </div>
       
     </footer>

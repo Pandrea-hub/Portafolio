@@ -7,9 +7,9 @@ import {AiFillLinkedin} from 'react-icons/ai'
 function HeaderSocials() {
   return (
     <div className='header_socials'>
-        <a href="https://www.linkedin.com" target="andrea-viviana-diaz-fonseca-7aa269214"><AiFillLinkedin/></a>
-        <a href="https://www.github.com" target="Pandrea-hub"><BsGithub/></a>
-        <a href="https://www.twitter.com" target="AndreaVivi12"><AiFillTwitterCircle/></a>
+        <a href="https://www.linkedin.com/in/andreavivi12/" target="_blank"><AiFillLinkedin/></a>
+        <a href="https://www.github.com/Pandrea-hub" target="_blank"><BsGithub/></a>
+        <a href="https://www.twitter.com/AndreaVivi12" target="_blank"><AiFillTwitterCircle/></a>
     </div>
   )
 }
