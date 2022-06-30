@@ -35,7 +35,7 @@ function Contact() {
             <SiWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+573192331874</h5>
-            <a href='https://api.whatsapp.com/send?phone=+573192331874' target='_blank'>Mandar mensaje</a>
+            <a href='https://wa.me/573192331874' target='_blank'>Mandar mensaje</a>
           </article>
         </div>
         <form action="https://formspree.io/f/xjvlalkj" method="post">
