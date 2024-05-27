@@ -15,7 +15,7 @@ function Footer() {
         <li><a href='#'>Home</a></li>
         <li><a href='#about'>Sobre mi</a></li>
         <li><a href='#experience'>Experiencia</a></li>
-        <li><a href='#services'>Servicios</a></li>
+        <li><a href='#services'>Skills</a></li>
         <li><a href='#portfolio'>Portafolio</a></li>
         <li><a href='#contact'>Contacto</a></li>
       </ul>

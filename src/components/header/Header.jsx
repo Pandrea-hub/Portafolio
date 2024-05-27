@@ -5,12 +5,13 @@ import ME from '../../assets/me.png'
 import HeaderSocials from './HeaderSocials'
 
 function Header() {
+  // Aca renderizamos el header, donde va el titulo, imagen e informacion del contacto
   return (
     <header>
       <div className="container header_container">
         <h5>Hola, mi nombre es</h5>
         <h1>Andrea Diaz</h1>
-        <h5 className="text-light">Fronted Developer</h5>
+        <h5 className="text-light">Software Developer</h5>
         <CTA/>
         <HeaderSocials/>
 

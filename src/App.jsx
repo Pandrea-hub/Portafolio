@@ -14,6 +14,8 @@ import { Fragment } from 'react';
 
 
 const App = () =>{
+    // Aca definimos los componentes que seran renderizados en nuestro portafolio  
+
     return (
         <Fragment>
         

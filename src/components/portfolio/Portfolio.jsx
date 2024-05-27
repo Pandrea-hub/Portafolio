@@ -7,56 +7,10 @@ import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portafolio5.jpg'
 import IMG6 from '../../assets/potafolio6.jpg'
 
-/*
-const data=[
-  {
-    id:1,
-    image: IMG1,
-    title:'Charts templates & infographics in Figma',
-    github:'https://github.com/',
-    demo:'https://dribbble.com/shots/17919781-Orion-UI-kit-Charts-templates-infographics-in-Figma'
-  },
-  {
-    id:2,
-    image: IMG2,
-    title:'Figma dashboard UI kit for data design web apps',
-    github:'https://github.com/',
-    demo:'https://dribbble.com/shots/18013189-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
-  },
-  {
-    id:3,
-    image: IMG3,
-    title:'Figma dashboard UI kit for data design web apps',
-    github:'https://github.com/',
-    demo:'https://dribbble.com/shots/17845733-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
-  },
-  {
-    id:4,
-    image: IMG4,
-    title:'Charts templates & infographics in Figma',
-    github:'https://github.com/',
-    demo:'https://dribbble.com/shots/17845674-Orion-UI-kit-Charts-templates-infographics-in-Figma'
-  },
-  {
-    id:5,
-    image: IMG5,
-    title:'Figma dashboard UI kit for data design web apps',
-    github:'https://github.com/',
-    demo:'https://dribbble.com/shots/17610643-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
-  },
-  {
-    id:6,
-    image: IMG6,
-    title:'Charts templates & infographics in Figma',
-    github:'https://github.com/',
-    demo:'https://dribbble.com/shots/17428309-Orion-UI-kit-Charts-templates-infographics-in-Figma'
-  }
-]
-*/
-
-
 
 function Portfolio() {
+
+  // Aca se dejan los proyectos en los que he trabajado junto a su respectivo link.
   return (
     <section id='portfolio'>
       <h5>Mi trabajo</h5>
@@ -95,9 +49,9 @@ function Portfolio() {
             <img src={IMG3} alt="Portafolio 3" />
           </div>
           <div className="portfolio__item-image"></div>
-          <h3>Trabajo</h3>
+          <h3>Modulos Golang</h3>
           <div className="portfolio__item-cta">
-            <a href="https://dribbble.com/pandreahub" target="_blank" className="btn btn-primary" >Live Demo</a>
+            <a href="https://github.com/Pandrea-hub/greetings" target="_blank" className="btn" >GitHub</a>
           </div>
         </article>
 

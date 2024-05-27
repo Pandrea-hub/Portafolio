@@ -8,8 +8,9 @@ import {SiWhatsapp} from 'react-icons/si'
 
 function Contact() {
 
-  
+  // Acá se deja los contactos, como el email, messsenger, telefono.
 
+  // Por ultimo hay un form que hace un post a formspree por detras donde me llega un correo
   return (
     <section id='contact'>
       <h5>Ponerse en contacto</h5>

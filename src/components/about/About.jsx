@@ -4,7 +4,15 @@ import me from "../../assets/about-me.png";
 import { BsBriefcaseFill } from "react-icons/bs";
 import { BsFillAwardFill } from "react-icons/bs";
 
-function About() {
+function 
+About() {
+  // Aca tenemos mas detalles sobre mi persona
+
+
+  // Empece mi carrera desde el 2022 por lo cual
+  // si queremos calcular el total, simplemente obtenemos el año actual y le restamos el inicial
+  var year = new Date().getFullYear();
+  let yearExperience = year - 2022; 
   return (
     <section id="about">
       <h5>Mas detalles</h5>
@@ -21,7 +29,7 @@ function About() {
             <article className="about__card">
               <BsBriefcaseFill className="about__icon" />
               <h5>Experiencia</h5>
-              <small>Mar-Jun 2022</small>
+              <small>{yearExperience} + años de experiencia</small>
             </article>
 
             <article className="about__card">
@@ -32,12 +40,12 @@ function About() {
           </div>
 
           <p>
-            Desarrolladora de aplicaciones web con conocimientos sobre
-            maquetación en HTML y CSS de manera responsiva partiendo del
-            principio Mobile First, tengo conocimientos sobre JavaScript, C#, se
-            usar la libreria React y Node.js, adicionalmente cuento con
-            conocimientos de patrones de arquitectura como MVC con el framework
-            .Net Core para el desarrollo de aplicaciones web
+            Soy desarrolladora de aplicaciones web enfocada en teconologia backend
+            especialmente con temas relacionados a Rest APIs, SOAP APIs, y microservicios,
+            busco la mejor manera de crear y/o optimizar aplicaciones con ayuda de patrones
+            de diseños y con las ultimas tecnologias, tengo experiencia en lenguajes como Golang,
+            Kotlin, C++ y JavaScript, tambien me gustan los temas relacionados a observabilidad con herramientas
+            como Datadog y New Relic. 
           </p>
 
           <a href="#contact" className="btn btn-primary">Contáctame</a>

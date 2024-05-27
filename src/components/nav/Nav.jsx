@@ -8,6 +8,7 @@ import {TiContacts} from 'react-icons/ti'
 import {useState} from 'react'
 
 function Nav() {
+  // Aca con ayuda de los status de react, redirige a la seccion dependendiendo de que boton se va a presionar
   const [activeNav,setActiveNav]=useState('#')
   return (
     <nav>
